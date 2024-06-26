@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 
 app.use('/tasks',userRoute);
 
-
 app.listen(PORT, () => {
   console.log(`Server listining on POTR:${PORT}`);
 });
